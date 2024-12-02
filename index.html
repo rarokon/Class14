@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <style>    
+    /*=============================================
+    =            css class practice            =
+    =============================================*/
+    #css-id{
+    background-color: #f2f2f2;
+    font-size: 2rem;
+    }
+    .css-class{
+    color: red;
+    background-color: antiquewhite;
+    }
+    
+    /*=============================================
+    =            css for element            =
+    =============================================*/
+    ul{
+        list-style: circle;
+    }
+    ul li{
+        color: brown;
+        background-color: beige;
+    }   
+    
+    /*=====  End of css for element  ======*/
+       
+    .li-menu{
+        color: darkgreen;
+        display: inline;
+        background-color:#f2f2f2 ;
+        font-size: 25px;
+    }   
+   /**
+    *
+    * navigation bar using id css
+    *
+    */     
+   #nav-menu{
+    background-color: #f2f2f2;
+   }   
+   /*=============================================
+   =            div using id css with padding margin border            =
+   =============================================*/
+   #ul-div{
+    background-color: cadetblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+
+    border-color: blue;
+   }  
+   /*=====  End of div using id css with padding margin border  ======*/
+     
+   /*=============================================
+   =            Another div using class css with padding margin border color        =
+                    Short hand 1
+   =============================================*/
+   .div-css-short-hand{
+    margin: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
+    border: 3px solid maroon;
+    background-color: azure;
+   }
+   .p-css{
+    background-color: bisque;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+   }   
+   /*=====  End of Another div using class css with padding margin border color       =======*/
+      
+   /*=============================================
+   =            short hand 2 css            =
+   =============================================*/
+   
+   .div-css-short-hand-2{
+    margin: 30px 30px;
+    padding: 30px 30px;
+    border: 3px solid rgb(72, 2, 50);
+    background-color: rgb(2, 88, 88);
+   }
+      /*=====  End of short hand 1 css  ======*/
+   
+   /*=============================================
+   =            short hand 3 css            =
+   =============================================*/
+   
+   .div-css-short-hand-3{
+    margin: 30px;
+    padding: 30px;
+    border: 3px solid rgb(66, 68, 65);
+    background-color: rgb(99, 100, 3);
+   }
+   
+   /*=====  End of short hand 2 css  ======*/
+      
+
+    </style>    
+    <title>
+      CSS class, id, Padding, margin, font size, color, background color, border
+    </title>
+  </head>
+  <body>
+     
+    <div>
+        <!-- header area for css practice -->
+        <div>
+            <header>
+                <h1>
+                    We are going to practice for CSS class, id, Padding, margin, border, font
+                    size, color, background color, border, width, height, display,
+                    position etc
+                </h1>
+            </div>
+            <div>
+                <!-- CSS ID practice -->
+                <p id="css-id">Here is the practice for CSS id</p>
+            </div>    
+            <div>
+                <!-- CSS class practice-->
+                 <p class="css-class">Here is the practice for CSS class. line-1</p>
+                 <p class="css-class">Here is the practice for CSS class. line-2</p>
+            </div>                 
+      </header>
+      <!-- navigation menu with id and class css -->
+      <nav id="nav-menu">
+        <ul>
+            <li class="li-menu"><a href="#">Home</a></li> &nbsp;&nbsp;&nbsp;
+            <li class="li-menu"><a href="#">About</a></li>&nbsp;&nbsp;&nbsp;
+            <li class="li-menu"><a href="#">Contact</a></li>&nbsp;&nbsp;&nbsp;
+            <li class="li-menu"><a href="#">Help</a></li>&nbsp;&nbsp;&nbsp;
+        </ul>
+      </nav>
+      <section>
+        <div id="ul-div">
+            <!-- CSS class practice with element selector-->
+             <ul>
+                <li>
+                    Here is the practice for CSS class with element selector. line-1
+                </li>
+                <li>
+                    Here is the practice for CSS class with element selector. line-2
+                </li>
+                <li>
+                    Here is the practice for CSS class with element selector. line-3
+                </li>
+                <li>
+                    Here is the practice for CSS class with element selector. line-4
+                </li>
+             </ul>
+        </div>  
+        <div class="div-css-short-hand">
+            <!-- CSS class practice with class border margin padding short form Short hand 1-->
+             <p class="p-css">Here is the practice for CSS class with short. Short hand 1</p>
+        </div>
+        <div class="div-css-short-hand-2">
+            <!-- CSS class practice with class border margin padding short form Short hand 2-->
+             <p class="p-css">Here is the practice for CSS class with short. Short hand 2</p>
+        </div>
+        <div class="div-css-short-hand-3">
+            <!-- CSS class practice with class border margin padding short form Short hand 3-->
+             <p class="p-css">Here is the practice for CSS class with short. Short hand 3</p>
+        </div>
+      </section>
+
+    </div>
+  </body>
+</html>
